@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+html,
+body,
+#root{
+  height: 100vh;
+  width: auto;
+  font-family: 'Source Sans Pro',sans-serif;
+}
+.app{
+  display: flex;
+  position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar{
+  width: 7px;  
+}
+/* Track */
+::-webkit-scrollbar-track{
+  background: #e0e0e0;
+}
+/* Handle */
+::-webkit-scrollbar-thumb{
+  background: #888;
+}
+/* Handle On Hoover */
+::-webkit-scrollbar-thumb:hover{
+  background: #555;
 }

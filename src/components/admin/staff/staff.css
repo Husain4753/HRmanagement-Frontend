@@ -1,0 +1,40 @@
+.Box{
+    width: auto;
+    height: 100%;
+    min-height: 90vh;
+    padding: 18px;
+    animation:changeBg 10s linear infinite;
+}
+@keyframes changeBg {
+    0%{
+        background-color: #d881f7;
+    }
+    20%{
+        background-color: #d36df7;
+    }
+    40%{
+        background-color: #ca41fa;
+    }
+    60%{
+        background-color: #ca41fa;
+    }
+    80%{
+        background-color: #d36df7
+        ;
+    }
+    100%{
+        background-color: #d881f7;
+    }
+}
+.card {
+    display:'flex';
+    flex-direction: 'column';
+    height: '100%';
+  }
+
+.cardContent {
+    flex-grow: 1;
+  }
+.cardActions{
+    margin-top: 'auto';
+  }
